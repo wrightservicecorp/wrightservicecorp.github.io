@@ -1,3 +1,4 @@
+
 html, body {
   margin: 0;
   padding: 0;
@@ -22,17 +23,6 @@ html, body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border: 0;
-}
-svg {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 button {
   background: transparent;
@@ -104,8 +94,7 @@ h1, h2, h3, h4, h5 {
   margin: 10px 0;
   padding: 0;
   line-height: 1.3;
-  font-style: normal;
-  font-weight: normal !important;
+  color: #005d8e;
 }
 ::-moz-placeholder {
   color: #666;
@@ -243,51 +232,37 @@ h1, h2, h3, h4, h5 {
   clear: both;
 }
 .header {
-  padding: 100px 0;
+  padding: 60px 0;
   text-align: center;
 }
-.btn {
-  color: rgba(0,0,0,0.5);
-  padding: 10px 20px;
-  border: 1px solid rgba(0,0,0,0.5);
-  border-radius: 4px;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-transform: uppercase;
+.header h1 {
+  font-family: "eurostile", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 2px;
-  font-weight: 300;
+  font-weight: 600;
 }
-.btn:hover {
-  color: #fff;
-  background: rgba(0,0,0,0.8);
+@media (min-width: 800px) {
+  .header {
+    padding: 120px 0;
+  }
 }
-.main {
-  padding: 60px 0;
-  background: #f7f7f7;
-}
-.item {
+.link {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #0097cc;
   border-radius: 4px;
-  overflow: hidden;
-  background: #fff;
+  color: #0097cc;
+  display: block;
   margin-bottom: 30px;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  -webkit-box-shadow: 0px 10px 39px -9px rgba(0,0,0,0.25);
-  -moz-box-shadow: 0px 10px 39px -9px rgba(0,0,0,0.25);
-  box-shadow: 0px 10px 39px -9px rgba(0,0,0,0.25);
 }
-.item:hover {
-  -webkit-box-shadow: 0px 10px 39px -9px rgba(0,0,0,0);
-  -moz-box-shadow: 0px 10px 39px -9px rgba(0,0,0,0);
-  box-shadow: 0px 10px 39px -9px rgba(0,0,0,0);
+.link:hover {
+  color: #fff;
+  background: #0097cc;
 }
-.item .info {
-  padding: 30px;
+section {
+  padding: 60px 0;
 }
-.item h3 {
-  font-size: 18px;
-}
-.item p {
-  font-size: 18px;
+@media (min-width: 800px) {
+  section {
+    padding: 120px 0;
+  }
 }
