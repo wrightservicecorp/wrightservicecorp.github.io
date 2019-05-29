@@ -245,16 +245,7 @@ h1, h2, h3, h4, h5 {
     padding: 120px 0;
   }
 }
-section {
-  padding: 30px 0;
-  border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-@media (min-width: 800px) {
-  section {
-    padding: 60px 0;
-  }
-}
-.btn {
+.link {
   text-align: center;
   padding: 15px;
   border: 1px solid #0097cc;
@@ -263,21 +254,15 @@ section {
   display: block;
   margin-bottom: 30px;
 }
-.btn:hover {
+.link:hover {
   color: #fff;
   background: #0097cc;
 }
-.link {
-  color: #0097cc;
-  border-bottom: 1px solid #0097cc;
+section {
+  padding: 30px 0 60px 0;
 }
-.link:hover {
-  color: #005d8e;
-  border-bottom: 1px solid #005d8e;
-}
-.doc-img {
-  border: 1px solid rgba(0,0,0,0.2);
-  max-width:100%;
-  height: auto;
-  margin-bottom: 10px;
+@media (min-width: 800px) {
+  section {
+    padding: 60px 0 120px 0;
+  }
 }
