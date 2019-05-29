@@ -243,6 +243,7 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 2px;
   font-weight: 600;
   color: #036c70;
+  font-size: 36px;
 }
 .title .icon {
   display: block;
@@ -250,11 +251,6 @@ h1, h2, h3, h4, h5 {
   height: 100px;
   margin: auto;
   margin-top: 30px;
-}
-@media(min-width:800px) {
-  .title {
-
-  }
 }
 .header .info {
   padding: 30px 0 100px 0;
