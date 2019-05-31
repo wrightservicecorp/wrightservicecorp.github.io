@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5 {
   padding-left: 30px;
   padding-right: 30px;
 }
-@media (min-width: 800px) {
+@media (min-width: 830px) {
   .sm-container {
     width: 800px;
   }
@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5 {
 .c-1-1 {
   width: 8.33333333%;
 }
-@media (min-width: 800px) {
+@media (min-width: 830px) {
   .c-2-1, .c-2-2, .c-2-3, .c-2-4, .c-2-5, .c-2-6, .c-2-7, .c-2-8, .c-2-9, .c-2-10, .c-2-11, .c-2-12 {
     float: left;
   }
@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 2px;
   font-weight: 600;
 }
-@media (min-width: 800px) {
+@media (min-width: 830px) {
   .header {
     padding: 120px 0;
   }
@@ -249,9 +249,23 @@ section {
   padding: 30px 0;
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
-@media (min-width: 800px) {
+@media (min-width: 830px) {
   section {
     padding: 60px 0;
+  }
+}
+.top-btn {
+  display: none;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 30px;
+}
+@media (min-width: 830px) {
+  .top-btn {
+    display: block;
   }
 }
 .btn {
@@ -269,11 +283,10 @@ section {
 }
 .link {
   color: #0097cc;
-  border-bottom: 1px solid #0097cc;
+  text-decoration: underline;
 }
 .link:hover {
   color: #005d8e;
-  border-bottom: 1px solid #005d8e;
 }
 .doc-img {
   border: 1px solid rgba(0,0,0,0.2);
