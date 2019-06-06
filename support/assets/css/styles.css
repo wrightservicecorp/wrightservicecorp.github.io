@@ -274,18 +274,12 @@ section p {
   }
 }
 .top-btn {
-  display: none;
   width: 30px;
   height: 30px;
   position: fixed;
   bottom: 0;
   right: 0;
   margin: 30px;
-}
-@media (min-width: 830px) {
-  .top-btn {
-    display: block;
-  }
 }
 .btn {
   text-align: center;
