@@ -249,6 +249,9 @@ h1, h2, h3, h4, h5 {
     padding: 120px 0;
   }
 }
+.main h3 {
+  font-size: 20px;
+}
 .main a {
   font-size: 16px;
 }
