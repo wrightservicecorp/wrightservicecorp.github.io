@@ -429,9 +429,6 @@ h1, h2, h3, h4, h5 {
   margin: 0;
   color: rgba(0,0,0,0.5);
 }
-.widgetDropped {
-    margin: 0 !important;
-}
 .help {
   padding: 60px 0;
   text-align: center;
@@ -446,4 +443,10 @@ h1, h2, h3, h4, h5 {
   .help {
     padding: 100px 0;
   }
+}
+.widgetDropped {
+    margin: 0 !important;
+}
+#ctl00_pnlBR {
+  display: none;
 }
