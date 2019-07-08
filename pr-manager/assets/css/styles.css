@@ -449,3 +449,6 @@ h1, h2, h3, h4, h5 {
 #ctl00_pnlBR {
   display: none;
 }
+#mainContainer {
+  padding: 0 !important;
+}
