@@ -248,7 +248,7 @@ h1, h2, h3, h4, h5 {
   -moz-box-shadow: 0px 10px 39px -9px rgba(0,0,0,0.2);
   box-shadow: 0px 10px 39px -9px rgba(0,0,0,0.2);
 }
-@media(min-height: 515px) {
+@media(min-height: 532.5px) {
   .wscu-login {
     position: absolute;
     top: 0;
